@@ -1,0 +1,67 @@
+{
+    "apiVersion": "2024-10-01-preview",
+    "id": "/subscriptions/b3317cee-925c-4e8c-b945-4b7fdd3fef4f/resourceGroups/LabAzure900/providers/Microsoft.MachineLearningServices/workspaces/Labai-900",
+    "name": "Labai-900",
+    "type": "microsoft.machinelearningservices/workspaces",
+    "sku": {
+        "name": "Basic",
+        "tier": "Basic"
+    },
+    "kind": "Default",
+    "location": "eastus2",
+    "tags": {
+        "SubscriptionState": "Suspended"
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "c45ead68-6415-4504-ab51-1a3523d20350",
+        "tenantId": "264d2528-acf6-4c75-b875-77d90c0ffda0"
+    },
+    "properties": {
+        "friendlyName": "Labai-900",
+        "description": "",
+        "storageAccount": "/subscriptions/b3317cee-925c-4e8c-b945-4b7fdd3fef4f/resourceGroups/LabAzure900/providers/Microsoft.Storage/storageAccounts/labai9007923541577",
+        "keyVault": "/subscriptions/b3317cee-925c-4e8c-b945-4b7fdd3fef4f/resourceGroups/LabAzure900/providers/Microsoft.Keyvault/vaults/labai9009453166823",
+        "applicationInsights": "/subscriptions/b3317cee-925c-4e8c-b945-4b7fdd3fef4f/resourceGroups/LabAzure900/providers/Microsoft.insights/components/labai9004420982397",
+        "hbiWorkspace": false,
+        "tenantId": "264d2528-acf6-4c75-b875-77d90c0ffda0",
+        "imageBuildCompute": null,
+        "provisioningState": "Succeeded",
+        "managedNetwork": {
+            "isolationMode": "Disabled"
+        },
+        "allowRoleAssignmentOnRG": true,
+        "v1LegacyMode": false,
+        "softDeleteEnabled": false,
+        "creationTime": "2024-12-21T14:01:43.087Z",
+        "notebookInfo": {
+            "resourceId": "7771f76512004f2f87f2e73ee0e9893c",
+            "fqdn": "ml-labai-900-eastus2-21622541-31c6-4346-b712-f3218c159de0.eastus2.notebooks.azure.net",
+            "isPrivateLinkEnabled": false,
+            "notebookPreparationError": null
+        },
+        "storageHnsEnabled": false,
+        "workspaceId": "21622541-31c6-4346-b712-f3218c159de0",
+        "linkedModelInventoryArmId": null,
+        "privateLinkCount": 0,
+        "publicNetworkAccess": "Enabled",
+        "ipAllowlist": [],
+        "discoveryUrl": "https://eastus2.api.azureml.ms/discovery",
+        "mlFlowTrackingUri": "azureml://eastus2.api.azureml.ms/mlflow/v1.0/subscriptions/b3317cee-925c-4e8c-b945-4b7fdd3fef4f/resourceGroups/LabAzure900/providers/Microsoft.MachineLearningServices/workspaces/Labai-900",
+        "serverlessComputeSettings": null,
+        "EnableSoftwareBillOfMaterials": false,
+        "sdkTelemetryAppInsightsKey": "e1f7b545-6243-4abf-ba76-c5691d2edb62",
+        "enableDataIsolation": false,
+        "systemDatastoresAuthMode": "accesskey",
+        "enableServiceSideCMKEncryption": false,
+        "provisionNetworkNow": false
+    },
+    "systemData": {
+        "createdAt": "2024-12-21T14:01:43.087Z",
+        "createdBy": "valdinei.borges@e-deploy.com.br",
+        "createdByType": "User",
+        "lastModifiedAt": "2024-12-21T14:01:43.087Z",
+        "lastModifiedBy": "valdinei.borges@e-deploy.com.br",
+        "lastModifiedByType": "User"
+    }
+}
